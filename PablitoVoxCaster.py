@@ -10,7 +10,8 @@ from talents.talents import TalentsDb
 from quotes.quotes import get_quotes
 from rules.criticals import load_criticals
 
-load_dotenv()
+if os.path.exists(".env"):
+    load_dotenv()
 TOKEN = os.getenv('DISCORD_TOKEN')
 
 bot = commands.Bot(command_prefix='/')
