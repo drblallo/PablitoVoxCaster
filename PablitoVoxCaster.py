@@ -2,17 +2,20 @@
 import os
 
 import random
+import discord 
 from dotenv import load_dotenv
 from discord.ext import commands
 from serializers.serializers import * 
 from talents.talents import TalentsDb
 from quotes.quotes import get_quotes
+from rules.criticals import load_criticals
 
 load_dotenv()
 TOKEN = os.getenv('DISCORD_TOKEN')
 
 bot = commands.Bot(command_prefix='/')
 talentsDb = TalentsDb("./talents/talents.json")
+criticalDb = load_criticals("./rules/criticals.json")
 
 today_quote = random.choice(get_quotes("./quotes/quotes.txt"))
 
@@ -33,5 +36,33 @@ async def repo(ctx):
 @bot.command(name="thought", help="thought of the day")
 async def thought(ctx):
     await ctx.send(embed=text_to_embbed(today_quote))
+
+def critical(type, location, level):
+    if level is None:
+        return multiple_critical_to_embedd(criticalDb, type, location)
+
+    return single_critical_to_embed(criticalDb, type, location, int(level) - 1)
+
+
+@bot.command(name="energy", help="criticals damage of energy type")
+async def energy_critical(ctx, location, level=None):
+    await ctx.send(embed=critical("energy", location, level))
+
+@bot.command(name="impact", help="criticals damage of impact type")
+async def impact_critical(ctx, location, level=None):
+    await ctx.send(embed=critical("impact", location, level))
+
+@bot.command(name="rendering", help="criticals damage of rendering type")
+async def rendering_critical(ctx, location, level=None):
+    await ctx.send(embed=critical("rendering", location, level))
+
+@bot.command(name="explosive", help="criticals damage of explosive type")
+async def explosive_critical(ctx, location, level=None):
+    await ctx.send(embed=critical("explosive", location, level))
+
+@bot.command(name="do", help="set pablito activity")
+async def set_status(ctx):
+    activity = discord.Activity(type=discord.ActivityType.watching, name=" heretics die")
+    await bot.change_presence(activity=activity)
 
 bot.run(TOKEN)
