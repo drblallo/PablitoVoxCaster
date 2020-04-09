@@ -1,7 +1,17 @@
 from discord import Embed
-from utils.utils import split_every
+from utils.utils import split_every, split_at_value
 
 MAX_FIELD_LENGHT = 1024
+
+def len_plus_one(string):
+    return len(string) + 1
+
+def populate_embed(embed, sentences, seperator = ""):
+    divided_sencetes = split_at_value(sentences, MAX_FIELD_LENGHT, len_plus_one)
+
+    for i, sentence in enumerate(divided_sencetes):
+        embed.add_field(name=str(i+1)+": ", value=seperator.join(sentence))
+
 
 def talent_to_embedd(talent):
     embed = Embed(title=talent.name)
@@ -10,15 +20,14 @@ def talent_to_embedd(talent):
     embed.add_field(name="prerequisites: ", value=talent.prerequisite)
     if talent.has_specializations:
         embed.add_field(name="specializations: ", value=talent.specializations)
-    for i, partial in enumerate(split_every(talent.effect, MAX_FIELD_LENGHT)):
-        embed.add_field(name=str(i+1)+": ", value=partial)
 
+    populate_embed(embed, talent.effect.split("."))
 
     return embed
 
+
 def all_talents_to_embedd(talentsDb):
     embed = Embed(title="Talents")
-    allTalents = "\n".join(talentsDb.names())
-    for i, partial in enumerate(split_every(allTalents, MAX_FIELD_LENGHT)):
-        embed.add_field(name=str(i+1)+": ", value=partial)
+    populate_embed(embed, talentsDb.names(), "\n");
+
     return embed 

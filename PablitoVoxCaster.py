@@ -23,7 +23,7 @@ async def talents(ctx, name=None):
 
 
 @bot.command(name="repo", help="returns the link to the repo")
-async def talents(ctx, name=None):
+async def repo(ctx):
     await ctx.send("https://github.com/drblallo/PablitoVoxCaster")
 
 bot.run(TOKEN)

@@ -918,7 +918,7 @@
 	"name": "TWO-WEAPON WIELDER",
 	"tier": 2,
 	"prerequisite": "None",
-	"specializations": "Melee, Ranged",
+	"specialisations": "Melee, Ranged",
 	"aptitude1": "Weapon Skill or Ballistic Skill",
 	"aptitude2": "Finesse",
 	"effect": "Intensive training allows the character to use a weapon in each hand when needed. When armed with two one-handed weapons (ether melee or ranged weapons), after making a Half Action Attack (this can be a Single Attack, a Swift Attack, or a Lightning Attack with a melee weapon, or a single shot, semi-auto burst, or full auto burst with a ranged weapon), he may make a single additional Half Action Attack following the same restrictions with the other weapon. (In effect, this allows the character to attack twice in a Round; once from each of their weapons). Both of these Attacks count as being part of the same Half Action, and both Tests made to attack with the weapons suffer a –20 penalty.  This Talent may be taken twice, each time with a different focus (melee or ranged). If a character possesses both Talents, then he may fight with one melee and one ranged weapon.  When this Talent is taken with the melee focus it counts as having the Weapon Skill and Finesse Aptitudes, and when it is taken with the ranged focus it counts as having the Ballistic Skill and Finesse Aptitudes.  This Talent may be enhanced by the Blade Dancer, Gunslinger, and Sidearm Talents."
