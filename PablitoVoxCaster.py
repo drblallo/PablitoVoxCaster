@@ -22,4 +22,8 @@ async def talents(ctx, name=None):
         await ctx.send(embed=talent_to_embedd(talent))
 
 
+@bot.command(name="repo", help="returns the link to the repo")
+async def talents(ctx, name=None):
+    await ctx.send("https://github.com/drblallo/PablitoVoxCaster")
+
 bot.run(TOKEN)
