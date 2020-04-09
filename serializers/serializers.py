@@ -31,3 +31,6 @@ def all_talents_to_embedd(talentsDb):
     populate_embed(embed, talentsDb.names(), "\n");
 
     return embed 
+
+def text_to_embbed(text):
+    return Embed(title=text)
