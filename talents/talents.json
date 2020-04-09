@@ -1,0 +1,1018 @@
+[{
+		"name": "AIR OF AUTHORITY",
+		"tier": 1,
+		"prerequisite": "Fellowship 30",
+		"aptitude1": "Fellowship",
+		"aptitude2": "Leadership",
+		"effect": "The character was born to command, either motivating or terrifying those under their charge. When making Command Skill Tests, the character may affect a number of targets equal to 100 times their Fellowship Bonus rather than just 10. If the character is giving an Order to his Squad, the order’s range is increased by 100 metres. This Talent has no effect on hostile targets and only affects NPCs."
+	},
+
+	{
+		"name": "AMBIDEXTROUS",
+		"tier": 1,
+		"prerequisite": "Agility 30",
+		"aptitude1": "Weapon Skill",
+		"aptitude2": "Ballistic Skill",
+		"effect": "This Talent does not represent true ambidexterity so much as sufficient training with both hands to make the distinction moot. The character may use either hand equally well for any task, and does not suffer the –20 penalty for actions using their off hand.  Special: When combined with Two-Weapon Wielder Talent, the penalty for making attacks with both weapons in the same Turn drops to –10."
+	},
+
+	{
+		"name": "ARMOUR-MONGER",
+		"tier": 2,
+		"prerequisite": "Intelligence 35, Tech-Use, Trade (Armourer)",
+		"aptitude1": "Intelligence",
+		"aptitude2": "Tech",
+		"effect": "The character is a skilled armourer and constantly tinkers and improves his armour or keeps it in pristine shape by repairing the slightest damage it sustains. With years of training, the character has even learned to enhance the protection afforded by his armour and how to use it to its optimum. The character increases the Armour Points of any armour he wears by 1 on all locations it would normally cover, as long as he has at least an hour each day to clean and repair it or make minor modifications. This bonus applies only to armour when worn by the character, as it combines his training as much as his skill at armoury."
+	},
+
+	{
+		"name": "ARMS MASTER",
+		"tier": 3,
+		"prerequisite": "Weapon Skill 40, Ballistic Skill 40, Weapon Training (any two)",
+		"aptitude1": "Weapon Skill",
+		"aptitude2": "Ballistic Skill",
+		"effect": "The character is a true master of weapons and there is practically nothing he cannot pick up and use with ease, from autoguns to plasma pistol or chainswords to shock mauls. When the character uses a weapon he is untrained in, he only suffers a –10 penalty, rather than a –20. The only exception to Arms Master are exotic weapons, which are so unusual or rare that they always require their own weapon training Talents to use without penalty, and gain no bonus when combined with this Talent."
+	},
+
+	{
+		"name": "ASSASSIN STRIKE",
+		"tier": 3,
+		"prerequisite": "Agility 40, Acrobatics",
+		"aptitude1": "Weapon Skill",
+		"aptitude2": "Fieldcraft",
+		"effect": "The character’s natural agility and graceful martial form turn him into a dervish of death on the battlefield. After making a melee attack, a successful Acrobatics Skill Test allows the character to move at half rate as a Free Action. The character’s opponent does not receive a free attack resulting from this move. The character may only make this move once per Round."
+	},
+
+	{
+		"name": "BASTION OF IRON WILL",
+		"tier": 3,
+		"prerequisite": "Psy Rating, Strong Minded, Willpower 40",
+		"aptitude1": "Willpower",
+		"aptitude2": "Psyker",
+		"effect": "The character’s sheer willpower and psychic focus have become one and the same over years of practice and training, such that their combined use is second nature. The character adds 5 x his Psy Rating to any Opposed Test involving defending against Psychic Powers."
+	},
+
+
+	{
+		"name": "BATTLE RAGE",
+		"tier": 2,
+		"prerequisite": "Frenzy",
+		"aptitude1": "Strength",
+		"aptitude2": "Defence",
+		"effect": "Long experience and indomitable will have allowed the character to master the beast within, directing its rage while keeping his head, despite the howling bloodlust in his mind.  The character may Parry while Frenzied. In addition, such is the character’s control, he may re-roll a failed roll to snap out of Frenzy or resist entering Frenzy if he so chooses."
+	},
+
+	{
+		"name": "BERSERK CHARGE",
+		"tier": 1,
+		"prerequisite": "None",
+		"aptitude1": "Strength",
+		"aptitude2": "Offence",
+		"effect": "The character has learned to put the whole force of their momentum behind their weapon blows and when the character charges into combat, few can stand before them. If the character uses the Charge Action, his Weapon Skill Test is Easy (+30) instead of Routine (+20)."
+	},
+
+	{
+		"name": "BLADEMASTER",
+		"tier": 3,
+		"prerequisite": "Weapon Skill 30, Weapon Training (any melee)",
+		"aptitude1": "Weapon Skill",
+		"aptitude2": "Finesse",
+		"effect": "The character’s mastery of bladed weapons and their martial disciplines has no peer. When attacking with any bladed weapon, including chainswords, axes, and power swords, the character may re-roll one missed attack per Round."
+	},
+
+	{
+		"name": "BLADE DANCER",
+		"tier": 3,
+		"prerequisite": "Weapon Skill 40, Two Weapon Wielder (Melee)",
+		"aptitude1": "Weapon Skill",
+		"aptitude2": "Finesse",
+		"effect": "The character has mastered the difficult ability to wield a blade or other melee weapon in either hand, making expert simultaneous attacks as they weave a deadly pattern of steel. When armed with two single-handed melee weapons with the Balanced Quality, the character reduces the penalties for Two-Weapon Fighting (see page 252) by 10 (so –20 would drop to –10). If taken with the Ambidextrous Talent, this drops the penalty to +0."
+	},
+
+	{
+		"name": "BLIND FIGHTING",
+		"tier": 1,
+		"prerequisite": "Perception 30",
+		"aptitude1": "Perception",
+		"aptitude2": "Fieldcraft",
+		"effect": "Years of practice and development of other senses allows the character to fight in close combat without the benefit of sight. This Talent reduces all penalties for fighting with a melee weapon while suffering from obscured vision by half (rounded up), permitting the character to fight in fog, smoke, or darkness more effectively. See (see page 253) for a full list of attack penalties based on lighting and vision. Note this Talent only improves a character’s chances to hit with melee weapons and has no effect on ranged weapon attacks."
+	},
+
+	{
+		"name": "BULGING BICEPS",
+		"tier": 2,
+		"prerequisite": "Strength 45",
+		"aptitude1": "Strength",
+		"aptitude2": "Offence",
+		"effect": "Whereas a weaker man might be sent flying by the recoil of a heavy weapon, this character’s strong physique allows him to remain standing. The character can fire heavy weapons using Semi-Auto Burst or Full Auto Burst without bracing, and he does not suffer the –30 penalty for failing to brace.  In addition, whenever the character uses the Athletics Heft Special Skill Use (see page 117) he may add +20 to his Athletics Skill Test to reflect his massive muscles."
+	},
+
+	{
+		"name": "CATFALL",
+		"tier": 1,
+		"prerequisite": "Agility 30",
+		"aptitude1": "Agility",
+		"aptitude2": "Fieldcraft",
+		"effect": "Gymnastic ability and natural balance enables the character to fall great distances without harm. The character automatically reduces the distance of all falls by a number of metres equal to his Agility Bonus, ignoring this distance as if it did not exist.  In addition, the character adds +20 to their Acrobatics Skill Tests when using the Jump Special Skill Use as it pertains to reducing Damage from falling."
+	},
+
+	{
+		"name": "COLD HEARTED",
+		"tier": 1,
+		"prerequisite": "None",
+		"aptitude1": "Willpower",
+		"aptitude2": "Defence",
+		"effect": "Either chemical and surgical treatments or sheer will has rendered the character immune to most mundane temptations.  Seduction attempts against him automatically fail and Charm Tests increase their Difficulty by one level. Taking this Talent causes one Insanity Point."
+	},
+
+	{
+		"name": "COMBAT FORMATION",
+		"tier": 1,
+		"prerequisite": "Intelligence 40",
+		"aptitude1": "Leadership",
+		"aptitude2": "Fieldcraft",
+		"effect": "The character makes sure the Squad is constantly alert and prepared for danger, planning out their actions for many contingencies if attacked. All members of the Squad (including the character) add +1 to their Initiative rolls. Any member of the Squad may also choose to use the Intelligence Bonus of this character for their Initiative roll rather than their own Agility Bonus."
+	},
+
+	{
+		"name": "COMBAT MASTER",
+		"tier": 2,
+		"prerequisite": "Weapon Skill 30",
+		"aptitude1": "Weapon Skill",
+		"aptitude2": "Defence",
+		"effect": "The character’s weapon seems to be everywhere at once, keeping many more opponents at bay in close combat than would seem possible. Opponents fighting the character in hand-to-hand combat gain no bonuses for Ganging Up (see page 253)."
+	},
+
+	{
+		"name": "COMBAT SENSE",
+		"tier": 1,
+		"prerequisite": "Perception 30",
+		"aptitude1": "Perception",
+		"aptitude2": "Fieldcraft",
+		"effect": "The character has the ability to consciously recognise the proddings of his subconscious as it reacts to his preternaturally sharp senses, giving him an edge that mere speed cannot match. The character may use his Perception Bonus in place of their Agility Bonus when rolling initiative."
+	},
+
+	{
+		"name": "COUNTER ATTACK DEFLECT SHOT",
+		"tier": 2,
+		"prerequisite": "Weapon Skill 40",
+		"aptitude1": "Weapon Skill",
+		"aptitude2": "Defence",
+		"effect": "The character’s lightning ripostes are things of deadly beauty; swift and invisible as the wind. After successfully Parrying an opponent’s attack, the character may immediately make an attack against that opponent using the weapon with which they parried as a Free Action, even though it is not their Turn.  This attack suffers a –20 penalty and may not be combined with any ability which allows more than one hit or attack such as Lighting Attack or Two-Weapon Fighting. This ability may only be used once per Turn, even if the character makes more than one Parry attempt."
+	},
+
+	{
+		"name": "CRACK SHOT",
+		"tier": 2,
+		"prerequisite": "Ballistic Skill 50",
+		"aptitude1": "Ballistic Skill",
+		"aptitude2": "Finesse",
+		"effect": "The character can place his shots where they will inflict more harm, such as at creases, gaps, or joints in armour. When the character’s ranged attack causes Critical Damage, add +2 to the Damage result."
+	},
+
+	{
+		"name": "CRIPPLING STRIKE",
+		"tier": 2,
+		"prerequisite": "Weapon Skill 50",
+		"aptitude1": "Weapon Skill",
+		"aptitude2": "Finesse",
+		"effect": "The character can land their blows precisely where they will inflict the most harm, cutting into seams or hammering at weak points. When the character’s melee attack causes Critical Damage, add +2 to the Damage result."
+	},
+
+	{
+		"name": "CRUSHING BLOW",
+		"tier": 3,
+		"prerequisite": "Weapon Skill 40",
+		"aptitude1": "Weapon Skill",
+		"aptitude2": "Offence",
+		"effect": "The character has the ability to focus their entire body into close combat attacks. The character adds half their Weapon Skill Bonus rounded down to Damage they inflict in melee."
+	},
+
+	{
+		"name": "DEADEYE SHOT",
+		"tier": 2,
+		"prerequisite": "Agility 50",
+		"aptitude1": "Weapon Skill",
+		"aptitude2": "Defence",
+		"effect": "The character’s weapons move with such speed that they can deflect thrown weapons and shots fired from primitive weapons. When the character is armed with a readied melee weapon, they add their Weapon Skill Bonus to their Armour Points on all locations (even unarmoured locations) when calculating Damage from hits from ranged weapons with the Primitive Special Quality or Thrown weapons."
+	},
+
+	{
+		"name": "DIE HARD",
+		"tier": 1,
+		"prerequisite": "Willpower 40",
+		"aptitude1": "Willpower",
+		"aptitude2": "Defence",
+		"effect": "Through either willpower or sheer stubbornness, the character refuses to die. When he suffers from blood loss, he may roll twice to avoid death."
+	},
+
+	{
+		"name": "DISARM",
+		"tier": 1,
+		"prerequisite": "Agility 30",
+		"aptitude1": "Weapon Skill",
+		"aptitude2": "Defence",
+		"effect": "The character can wrest weapons from their opponent’s hands through practised technique or brute force. If in close combat, the character may use a Full Action to disarm his foe by making an Opposed Weapon Skill Test. If the character wins the Test, the enemy drops his weapon at his feet. Should the character obtain three or more Degrees of Success, he may take the enemy’s weapon from him."
+	},
+
+	{
+		"name": "DISTURBING VOICE",
+		"tier": 1,
+		"prerequisite": "None",
+		"aptitude1": "Fellowship",
+		"aptitude2": "Social",
+		"effect": "The character’s voice has particularly baleful or menacing qualities, causing others to quail before it. The character gains a +10 bonus to all Intimidate Skill Tests, but suffers a –10 penalty to Fellowship Tests when dealing with others in a non-threatening manner, such as animals, children, or the easily startled. In addition, the character is more adept as instilling fear in his followers and when using the Command Terrify Special Skill Use (see page 119), and adds +10 to his Command Skill Test to counter the effects of Fear."
+	},
+
+	{
+		"name": "DOUBLE TEAM",
+		"tier": 1,
+		"prerequisite": "None",
+		"aptitude1": "General",
+		"aptitude2": "Offence",
+		"effect": "The character has experience of fighting in paired teams that work together to take down their enemies. When ganging up on an opponent, the character gains an additional +10 bonus to Weapon Skill Tests. If both the characters that outnumber the enemy have this Talent then both gain an additional +10 bonus, for a total of +20. This bonus is in addition to the normal bonus gained from Ganging Up on an opponent (see page 253)."
+	},
+
+	{
+		"name": "ENEMY",
+		"tier": 1,
+		"prerequisite": "None",
+		"aptitude1": "General",
+		"aptitude2": "Social",
+		"specialisations": "Adeptus Arbites, Adeptus Astra Telepathica, Adeptus Astartes, Adeptus Mechanicus, Adepta Sororitas, Adeptus Titanicus, Administratum, Astropaths, Dark Mechanicus, Daemon Prince, Ecclesiarchy, Chartist Captains, Heretical Cult, Imperial Navy, Inquisition, Navigators, Officio Assassinorum, Planetary Defence Force, Planetary Governors or Warlords, Rogue Traders, Schola Progenium, Scholastica Psykana, Traitor Legions",
+		"effect": "The opposite of Peer; the character is particularly despised and possibly hunted by a specific social group or organisation.  The character suffers an additional –10 penalty to Fellowship Tests when dealing with this group, and the GM may use them to complicate his life from time to time.  Unlike other Talents, this Talent does not cost any experience points to purchase and cannot be taken as an advance. Instead the GM and player may agree to award this Talent when appropriate to the adventure or campaign.  This Talent can be removed with an Elite Advance and the approval of the GM, if the character has redeemed himself with the group in question.  This Talent may be awarded multiple times for the same group, in which case it should be listed as Enemy (X), with X equalling the number of times the Talent has been awarded.  This can be used to represent groups who particularly hate the character and want to see him dead. In game terms, the penalty to Fellowship Tests increases to –10 times X, with X being the number of times the Talent has been awarded."
+	},
+
+
+	{
+		"name": "EXOTIC WEAPON TRAINING",
+		"tier": 2,
+		"prerequisite": "None",
+		"aptitude1": "Intelligence",
+		"aptitude2": "Finesse",
+		"specialisations": "(each single exotic weapon)",
+		"effect": "The character is trained to use a particularly obscure type of weapon, allowing them to use armaments few others have ever seen. Weapons requiring this unique Talent are noted in their armoury descriptions. When a character attempts to use a weapon for which he does not have the correct Weapon Training Talent, he suffers a –20 penalty to any relevant Weapon Skill or Ballistic Skill Test. Unlike other kinds of weapons training, this Talent applies only to a single weapon and not class of weapon."
+	},
+
+	{
+		"name": "EYE OF VENGEANCE",
+		"tier": 3,
+		"prerequisite": "Ballistic Skill 50",
+		"aptitude1": "Ballistic Skill",
+		"aptitude2": "Offence",
+		"effect": "The character can focus their intent on where it is likely to do most damage to their enemy and then strike them down with a single shot. Before making a ranged Standard Attack Action, the character may spend a Fate Point. If he does so, his attack deals +X Damage and gains +X Pen, where X equals the number of Degrees of Success scored on the attack roll."
+	},
+
+	{
+		"name": "FAVOURED BY THE WARP",
+		"tier": 3,
+		"prerequisite": "Willpower 35",
+		"aptitude1": "Willpower",
+		"aptitude2": "Psyker",
+		"effect": "Whenever a Power Roll results in Psychic Phenomena, the character may roll one additional time on that table and take the more favourable result. Perils of the Warp affect him as normal."
+	},
+
+	{
+		"name": "FEARLESS",
+		"tier": 3,
+		"prerequisite": "Nerves of Steel",
+		"aptitude1": "Willpower",
+		"aptitude2": "Defence",
+		"effect": "Through hard experience with horrifying situations, fear no longer commands the character’s actions. The character is immune to the effects of Fear and Pinning, but disengaging from combat or backing down from a fight is difficult for them to stomach, and as such requires a successful Willpower Test."
+	},
+
+	{
+		"name": "FERRIC SUMMONS",
+		"tier": 1,
+		"prerequisite": "Ferric Lure Implants, Mechanicus Implants",
+		"aptitude1": "Willpower",
+		"aptitude2": "Tech",
+		"effect": "The character can call an unsecured metal object to his hand as with Ferric Lure Implants (see page 206). He may summon objects of up to 2 kilograms per point of his Willpower Bonus and may summon objects up to 40 metres distant."
+	},
+
+	{
+		"name": "FORESIGHT",
+		"tier": 2,
+		"prerequisite": "Intelligence 30",
+		"aptitude1": "Intelligence",
+		"aptitude2": "Knowledge",
+		"effect": "Logic and analysis do for the character what animal entrails and the bones claim to do for the superstitious masses. By careful consideration of all the possible consequences and examination of all evidence and information, the character can identify the best path for success. By spending ten minutes studying or analysing a problem, the character gains a +10 bonus to his next Intelligence Test or a Skill Test based on Intelligence."
+	},
+
+	{
+		"name": "FRENZY",
+		"tier": 1,
+		"prerequisite": "None",
+		"aptitude1": "Strength",
+		"aptitude2": "Offence",
+		"effect": "The character’s temper and passion boil just below the surface of his psyche, mostly held in check by his rational mind, but easily released when needed. If the character spends one full Round fuelling his anger—by flagellation, drugs, or other means—on the next Round he goes into an uncontrolled rage, gaining a +10 bonus to Weapon Skill, Strength, Toughness, and Willpower, but suffering a –20 penalty to Ballistic Skill, Intelligence, and Fellowship—note that Characteristic penalties are different from Characteristic Damage (see page 188), and cannot reduce a Characteristic below 1. While Frenzied, the character must attack the nearest enemy in melee combat if possible. If he is not engaged with the nearest enemy, he must move towards that enemy and engage it if possible. The character will not take obviously suicidal actions such as leaping off a building in order to engage someone on the ground, but he will take any actions that have a reasonable opportunity to engage in melee with the nearest enemy.  While Frenzied, he is immune to Fear, Pinning, stunning effects, the effects of Fatigue, and he may not Parry, retreat, or flee. He remains Frenzied for the duration of the combat.  Characters may not use psychic powers while Frenzied. After combat ends, or if there are no more eligible enemy targets for the character to attack, he can make a Willpower Test to snap out of his Frenzy. If he fails, he must continue to attack, favouring NPCs over PCs. Each successive Round, however, he may make another Willpower Test, with a cumulative +10 bonus to return to a stable state of mind and come out of Frenzy. After Frenzying, a character may not Frenzy again for at least an hour as he recovers his mental and physical strength."
+	},
+
+	{
+		"name": "FURIOUS ASSAULT",
+		"tier": 2,
+		"prerequisite": "Weapon Skill 35",
+		"aptitude1": "Weapon Skill",
+		"aptitude2": "Offence",
+		"effect": "The character’s speed and martial prowess allow him to land several blows where lesser combatants land one. If the character successfully hits his target using the All Out Attack Action, they may spend their Reaction (and thus cannot Parry or Dodge until their next Turn) to make an additional Attack using the same bonuses or penalties as the original attack."
+	},
+
+	{
+		"name": "GUNSLINGER",
+		"tier": 3,
+		"prerequisite": "Ballistic Skill 40, Two-Weapon Wielder (Ranged)",
+		"aptitude1": "Ballistic Skill",
+		"aptitude2": "Finesse",
+		"effect": "The character has trained with pistols for so long that they are like extensions of their own body, barely requiring conscious thought to aim and fire. When armed with two pistol class weapons that he can use single handedly, the character reduces the penalty for Two-Weapon Fighting by 10 (so –20 would drop to –10). If taken with the Ambidextrous Talent, this drops the penalty to +0."
+	},
+
+	{
+		"name": "HAMMER BLOW",
+		"tier": 3,
+		"prerequisite": "Crushing Blow",
+		"aptitude1": "Strength",
+		"aptitude2": "Offence",
+		"effect": "The character strikes a single blow with such focus and force that it breaks armour and pulps flesh as it strikes. When the character uses an All Out Attack manoeuvre to make a single melee attack, they may add half their Strength Bonus to the weapon’s Armour Penetration. The attack also counts as having the Concussive (2) Special Quality to represent the shocking force of the blow’s impact"
+	},
+
+	{
+		"name": "HARD TARGET",
+		"tier": 2,
+		"prerequisite": "Agility 40",
+		"aptitude1": "Agility",
+		"aptitude2": "Defence",
+		"effect": "Light on his feet, the character dodges and weaves as he moves, skills learned from long years in the line of fire.  When the character performs a Charge or Run action, opponents suffer a –20 penalty to Ballistic Skill Tests made to hit the character with a ranged weapon. This penalty continues until the start of the character’s next Turn."
+	},
+
+	{
+		"name": "HARDY",
+		"tier": 2,
+		"prerequisite": "Toughness 40",
+		"aptitude1": "Toughness",
+		"aptitude2": "Defence",
+		"effect": "The character’s constitution rebounds quickly from shock or injury. When undergoing medical treatment or healing from injuries, the character always recovers Damage as if lightly wounded regardless of the level of Damage they have sustained."
+	},
+
+	{
+		"name": "HATRED",
+		"tier": 2,
+		"prerequisite": "None",
+		"specialisations": "Chaos Space Marines, Daemons, Mutants, Psykers, Xenos (specific), other",
+		"aptitude1": "Weapon Skill",
+		"aptitude2": "Social",
+		"effect": "A group, organisation, or race has wronged the character in the past, fuelling this animosity. When fighting opponents of that group in close combat, the character gains a +10 bonus to all Weapon Skill Tests made against them. The character also finds it difficult to back down from a fight with his hated foe and must make a Willpower Test to retreat or surrender when fighting them, unless massively outnumbered or outclassed."
+	},
+
+
+	{
+		"name": "EIGHTENED SENSES",
+		"tier": 1,
+		"prerequisite": "None",
+		"specialisations": "Sight, Sound, Smell, Taste, Touch",
+		"aptitude1": "Perception",
+		"aptitude2": "Fieldcraft",
+		"effect": "Either genetics or augmetics have made one of the character’s senses superior to others. When the character gains this Talent, select one of the five senses: The character gains a +10 bonus to any Tests specifically involving this sense. Thus, Heightened Senses (Sight) would apply to an Awareness Test to see a distant flock of Shale Crows, but not to a Ballistic Skill Test or a Weapon Skill Test because the character is not just using their eyes.  This Talent may be taken more than once, each time with a different specialisation."
+	},
+
+
+	{
+		"name": "HIP SHOOTING",
+		"tier": 2,
+		"prerequisite": "Ballistic Skill 40, Agility 40",
+		"aptitude1": "Ballistic Skill",
+		"aptitude2": "Finesse",
+		"effect": "The character’s prowess with ranged weapons is such that they can still fire accurately without their eye behind the sights. As a Full Action, the character may both move up to their Full Move rate and make a single attack with a ranged weapon. This attack can only be a single shot and may not be a semi- or full-automatic ranged attack. Characters with the Two-Weapon Fighting Talent may use this Talent with Hip Shooting to make two single shots, if they are armed with a ranged weapon in either hand."
+	},
+
+	{
+		"name": "HOTSHOT PILOT",
+		"tier": 2,
+		"prerequisite": "Agility 40, Operate (any one)",
+		"aptitude1": "Agility",
+		"aptitude2": "Fieldcraft",
+		"effect": "The character can pilot or drive vehicles as if they were extensions of his own body and has a natural understanding of anything that needs steering. The character counts as having all Operate Skills at Rank 1 (Known) (basically they can drive or fly anything). If they wish to later improve their Operate Skills, these Advances must be bought using Experience Points (from Rank 1) as normal. Such is their skill they also add one Degree of Success to any successful Operate Tests."
+	},
+
+	{
+		"name": "INFUSED KNOWLEDGE",
+		"tier": 3,
+		"prerequisite": "Intelligence 40, Lore (any one)",
+		"aptitude1": "Intelligence",
+		"aptitude2": "Knowledge",
+		"effect": "The character has been infused with a great wealth of lore and knowledge, either through punishing noetic techniques or by arcane methods kept secret by the guardians of technology and learning. The character counts as having all Common Lore and Scholastic Lore Skills at Rank 1 (Known) (basically they know something about everything). If they wish to later improve their Lore Skills, these advances must be bought using Experience Points (from Rank 1) as normal.  Such is their skill, they also add one Degree of Success to any successful Common or Scholastic Lore Tests."
+	},
+
+	{
+		"name": "INDEPENDENT TARGETING",
+		"tier": 2,
+		"prerequisite": "Ballistic Skill 40",
+		"aptitude1": "Ballistic Skill",
+		"aptitude2": "Finesse",
+		"effect": "The character has developed their situational awareness to a point where they can fire in two directions within a split second. When firing two weapons as part of a single action (using the Two-Weapon Fighting Talent, for example), the targets do not have to be within 10 metres of each other."
+	},
+
+	{
+		"name": "INSPIRE WRATH",
+		"tier": 2,
+		"prerequisite": "Air of Authority",
+		"aptitude1": "Fellowship",
+		"aptitude2": "Leadership",
+		"effect": "The character’s personal vitriol and bitter hatred is so ingrained in his being that he can inspire the same hate in others. As a Full Action, the character can make a Charm Test to grant the effects of the Hatred Talent to their Squad, or any people in their immediate vicinity. Success on the Test grants the Hatred Talent to the listeners (with the object of hate chosen by the character) for the duration of an encounter. Listeners can resist the effects of the character’s speech (and therefore not be burdened with his chosen hatred) by passing an Opposed Willpower Test against the character’s Charm Skill Test. Inspire Wrath affects a number of people up to 10 times the character’s Fellowship, which can be increased with the use of the Master Orator Talent as normal. Both players and GMs should bear in mind, however, that once a crowd has been inspired to hatred or mindless anger, the effects can be unpredictable and are seldom exactly as the character intends."
+	},
+
+	{
+		"name": "INTO THE JAWS OF HELL",
+		"tier": 3,
+		"prerequisite": "Iron Discipline, Fellowship 50",
+		"aptitude1": "Fellowship",
+		"aptitude2": "Leadership",
+		"effect": "The character’s cool demeanour and faith in the Emperor inspire those around him to great feats. Comrades become immune to the effects of Fear and Pinning as long as they are within 10 metres of him."
+	},
+
+	{
+		"name": "IRON DISCIPLINE",
+		"tier": 2,
+		"prerequisite": "Fellowship 30",
+		"aptitude1": "Fellowship",
+		"aptitude2": "Leadership",
+		"effect": "Iron sharpens iron. The character does not coddle his squad- mates nor motivate them through kindness. The character’s stalwart example and stern leadership exhorts them with steel instead of praise. If the Player Character fails a Fear or Pinning Test, his Comrade only fails if the roll was a double."
+	},
+
+	{
+		"name": "IRON JAW",
+		"tier": 1,
+		"prerequisite": "Toughness 40",
+		"aptitude1": "Toughness",
+		"aptitude2": "Defence",
+		"effect": "The character has taken blows from Orks and given back as good as they got. The character can bounce back from most strikes without ill effects. If ever Stunned, a successful Toughness Test allows the character to ignore the effects."
+	},
+
+	{
+		"name": "JADED",
+		"tier": 1,
+		"prerequisite": "Willpower 40",
+		"aptitude1": "Willpower",
+		"aptitude2": "Defence",
+		"effect": "The character’s wide travels have shown them both wonders and horrors beyond the ken of most. The galaxy has thrown its worst at the character and they have yet to flinch. Mundane events, from death’s horrific visage to xenos abominations, do not force the character to gain Insanity Points or make Fear Tests. Terrors of the Warp still affect the character normally."
+	},
+
+	{
+		"name": "KILLING STRIKE",
+		"tier": 2,
+		"prerequisite": "Weapon Skill 50",
+		"aptitude1": "Weapon Skill",
+		"aptitude2": "Offence",
+		"effect": "With expert precision, the character can land blows which defy their opponent’s ability to counter, slicing through their defences as surely as a powerblade cuts flesh. At the start of any of his combat, the character may spend one Fate Point to choose to make all their melee attacks for that Round unavoidable with Parry or Dodge Skills. These effects last only for the Round, though they apply to all the character’s attacks (i.e. such as extra attacks gained with Talents such as Two-Weapon Fighting or Furious Assault), and only stop the use of evasion (i.e. Parries and Dodges) to counter them.  Other means of stopping attacks (such as Shadow Fields or Displacement Fields) are unaffected."
+	},
+
+	{
+		"name": "LASGUN BARRAGE",
+		"tier": 3,
+		"prerequisite": "Weapon Training (Las), BS 40",
+		"aptitude1": "Ballistic Skill",
+		"aptitude2": "Offence",
+		"effect": "Through years of practice drills and battlefield experience, the character has become a master of the lasgun. The character can use lasguns of all types to unleash devastating volleys of disciplined fire that can cut down his enemies like the sweep of a scythe. When firing any class of Las weapon on full or semi-auto, the character may score one additional Degree of Success (provided the Test is successful) if he does not take a Move Action in his Turn."
+	},
+
+	{
+		"name": "LEAP UP",
+		"tier": 1,
+		"prerequisite": "Agility 30",
+		"aptitude1": "Agility",
+		"aptitude2": "General",
+		"effect": "A combination of athletic ability and speed allow the character to spring to their feet in virtually any circumstance.  The character may stand up as a Free Action."
+	},
+
+	{
+		"name": "LIGHT SLEEPER",
+		"tier": 1,
+		"prerequisite": "Perception 30",
+		"aptitude1": "Perception",
+		"aptitude2": "Fieldcraft",
+		"effect": "The slightest change in conditions or disturbance brings the character from sleep to full awareness, remaining alert even in slumber. The character is always assumed to be awake, even when asleep, for the purposes of Awareness Tests or surprise. Unfortunately, the character’s sleep is not deep and can be frequently interrupted, resulting in a less-than-cheery disposition when awake."
+	},
+
+	{
+		"name": "LIGHTNING ATTACK",
+		"tier": 3,
+		"prerequisite": "Swift Attack",
+		"aptitude1": "Weapon Skill",
+		"aptitude2": "Finesse",
+		"effect": "The character’s speed with weapons is unmatched, allowing him to launch flurries of attacks in melee. A Player Character with this Talent may make the Lightning Attack Combat Action (see page 246)."
+	},
+
+	{
+		"name": "LIGHTNING REFLEXES",
+		"tier": 1,
+		"prerequisite": "None",
+		"aptitude1": "Agility",
+		"aptitude2": "Fieldcraft",
+		"effect": "The character always expects trouble, even in the most innocuous situations, allowing them to act quickly when needed. When making an Initiative roll, the character may roll twice and add the higher of the two dice results to his Agility Bonus."
+	},
+
+	{
+		"name": "LUMINEN BLAST",
+		"tier": 3,
+		"prerequisite": "Luminen Shock, Luminen Capacitors, Mechanicus Implants",
+		"aptitude1": "Ballistic Skill",
+		"aptitude2": "Tech",
+		"effect": "The energies charged in the character’s Luminen Capacitors can be expelled in a ranged attack with a Ballistic Skill Test, directing this energy against a single target within 10 metres, inflicting 1d10 plus twice the character’s Willpower Bonus in Energy Damage, with the Shock Quality. The attack uses a Half Action to accomplish (counting as a Single Attack Action) and the character must pass a Toughness Test when they use this ability or gain a level of Fatigue."
+	},
+
+	{
+		"name": "LUMINEN SHOCK",
+		"tier": 2,
+		"prerequisite": "Luminen Capacitors, Mechanicus Implants",
+		"aptitude1": "Weapon Skill",
+		"aptitude2": "Tech",
+		"effect": "The energies charged in the character’s Luminen Capacitors can be expelled as he grapples with an opponent. By making a successful melee attack (without penalties for being unarmed) or instead of doing Damage during a grapple, the character may deal 1d10 plus his Willpower Bonus in Energy Damage, with the Shock Quality. After use, the character must pass a Toughness Test or gain a level of Fatigue."
+	},
+
+	{
+		"name": "MAGLEV TRANSCENDENCE",
+		"tier": 2,
+		"prerequisite": "Maglev Coils/Mechanicus Implants",
+		"aptitude1": "Intelligence",
+		"aptitude2": "Tech",
+		"effect": "The character has learned how to better use his inbuilt maglev coils. He may hover for a number of minutes equal to 1d10 plus twice his Toughness Bonus. He may move his Run speed when making a Half Move Action and suffers no Damage from falling if the coils are active. Each use drains half the power stored in the coils (therefore he may use the coils twice before recharging them)."
+	},
+
+	{
+		"name": "MARKSMAN",
+		"tier": 2,
+		"prerequisite": "Ballistic Skill 35",
+		"aptitude1": "Ballistic Skill",
+		"aptitude2": "Finesse",
+		"effect": "The character’s steady hand and eagle eye allows him to keep crosshairs steady on any target, regardless of range. Distance is no protection against the character’s marksmanship and he suffers no penalties for Ballistic Skill Tests at long or extreme range."
+	},
+
+	{
+		"name": "MASTER CHIRURGEON",
+		"tier": 3,
+		"prerequisite": "Medicae +10",
+		"aptitude1": "Intelligence",
+		"aptitude2": "Fieldcraft",
+		"effect": "The character’s advanced medical skills enable him to knit flesh with deft mastery. The character’s exceptional education in use of the Narthecium, Med-Slate, and supplemental drugs give their patients an enormous advantage. The character gains a +10 bonus on all Medicae Skill Tests. If the character fails his Medicae Test while performing Extended Care, he reduces the amount of Damage suffered by his patience due to his failure by an amount equal to his Intelligence Bonus. If their patient is in danger of losing a limb from a Critical Hit (see Chapter VIII: Combat), the character provides the patient with a +20 bonus to the Toughness Test to prevent limb loss."
+	},
+
+	{
+		"name": "MASTER ENGINSEER",
+		"tier": 3,
+		"prerequisite": "Tech Use +20, Mechanicus Implants",
+		"aptitude1": "Intelligence",
+		"aptitude2": "Tech",
+		"effect": "The character’s knowledge of engines and their machine spirits surpasses all but the most venerable servants of the Machine-God. The character can feel the plasma pulsing through a reactor’s conduits as if it was in his own veins. The character gains a +10 bonus on Tech-Use Skill Tests. The character may spend a Fate Point to automatically succeed on a Tech-Use Skill Test for enhancement, repair, or upgrade of a machine’s system, taking the minimum amount of time possible on the task. In addition, at the GM’s discretion, the character may repair objects without all the parts to hand, jury-rigging a working device as good as the original."
+	},
+
+	{
+		"name": "MASTER ORATOR",
+		"tier": 3,
+		"prerequisite": "Inspire Wrath",
+		"aptitude1": "Fellowship",
+		"aptitude2": "Leadership",
+		"effect": "The character has learned the techniques required to influence large audiences. When the character uses the Charm or Intimidate Skill to affect more than one person, they may affect a number of people up to a 100 times their Fellowship Bonus rather than just 10."
+	},
+
+	{
+		"name": "MASTERY",
+		"tier": 3,
+		"prerequisite": "Rank 4 in Selected Skill",
+		"specialisations": "Any Skill",
+		"aptitude1": "Intelligence",
+		"aptitude2": "Knowledge",
+		"effect": "The character has become a consummate master of a single Skill and can perform feats with it that would baffle lesser men. The character may spend a Fate Point to automatically pass a Skill Test with his chosen Skill, provided the final modifier to his Skill Test is 0 or better. In addition to simply passing the Test, the character will pass it by a number of Degrees of Success equal to the Characteristic Bonus of its associated Characteristic. This Talent may be taken more than once, each time for a different Skill."
+	},
+
+
+	{
+		"name": "MECHADENDRITE USE",
+		"tier": 2,
+		"prerequisite": "Mechanicus Implants",
+		"aptitude1": "Intelligence",
+		"specialisations": "Weapon, Utility",
+		"aptitude2": "Tech",
+		"effect": "The character is trained in the use of a particular kind of Mechadendrite (extra mechanical arms often sprouting from a cyber mantle mounted on the character’s back) in much the same way as Weapon Training allows the use of weapons.  Though there are many different types of Mechadendrite, this Talent divides them into two categories: • Weapon: Mechadendrites of this type end in either ranged or close combat weapons, and have the supplemental support and strength necessary for combat.  • Utility: Including such varied types as Machine Spirit Interface, Manipulator, Medicae, Utility, Optical, and countless others, these Mechadendrites generally require less hardy mountings, but all interface with the Cyber Mantle in a similar manner."
+	},
+
+
+	{
+		"name": "MEDITATION",
+		"tier": 1,
+		"prerequisite": "None",
+		"aptitude1": "Willpower",
+		"aptitude2": "Knowledge",
+		"effect": "The character has mastered their body and its reactions by the practice of meditative techniques, shutting down unnecessary functions and enabling them to refresh both body and mind. Success on a Willpower Test and ten minutes without interruptions removes one level of Fatigue."
+	},
+
+	{
+		"name": "MIGHTY SHOT",
+		"tier": 3,
+		"prerequisite": "Ballistic Skill 40",
+		"aptitude1": "Ballistic Skill",
+		"aptitude2": "Offence",
+		"effect": "The character knows the weak points in every armour and material, and has the skill to ensure that his shots land exactly where they will do the most damage. The character adds half his Ballistic Skill Bonus to Damage inflicted with a ranged weapon."
+	},
+
+	{
+		"name": "MIMIC",
+		"tier": 1,
+		"prerequisite": "None",
+		"aptitude1": "Fellowship",
+		"aptitude2": "Social",
+		"effect": "Vox synthesisers, training, or innate abilities allow the character to accurately mimic the voice of another. For proper imitation, the character must study the voice patterns of their intended target for at least one hour and speak the same language. The character cannot accurately copy the voice of a xenos due to the difference in physiology and the subtle complexities of most alien languages. Listeners must succeed on a Scrutiny Skill Test with a –10 penalty to penetrate the deception. If the character’s study used vox recordings or comm-link conversations rather than in-person observation, then there is no penalty to the Scrutiny Skill Test to see through it. The character’s deception automatically fails if the listener can clearly see them."
+	},
+
+	{
+		"name": "MONITORUM INFLUENCE",
+		"tier": 2,
+		"prerequisite": "None",
+		"aptitude1": "Fellowship",
+		"aptitude2": "Social",
+		"effect": "Whether through contacts in the Departmento Munitorum or simple fame amongst the ranks of the Imperial Guard, the character has an easier time acquiring equipment for his Squad.  The Squad’s Logistics Rating increases by +5. This bonus is permanent, and is not removed even if the character who purchased this Talent is killed or removed from the Squad.  Purchasing this Talent costs an additional amount of XP equal to 5 times the Squad’s current Logictics Rating."
+	},
+
+	{
+		"name": "NERVES OF STEEL",
+		"tier": 2,
+		"prerequisite": "None",
+		"aptitude1": "Willpower",
+		"aptitude2": "Defence",
+		"effect": "Long years on the battlefield enable the character to remain calm as fire impacts all around them. The character may re-roll failed Willpower Tests to avoid or recover from Pinning. In addition, he is seldom impressed by the aggressive displays of his enemies and gains a +10 to Willpower Tests when resisting the effects of enemy Intimidation Skill attempts."
+	},
+
+	{
+		"name": "NEVER DIE",
+		"tier": 3,
+		"prerequisite": "Willpower 50, Toughness 50",
+		"aptitude1": "Toughness",
+		"aptitude2": "Defence",
+		"effect": "The character’s will or devotion to the Emperor can sustain him when his mortal body fails him. The character can spend one Fate Point to ignore the effects of injury, Fatigue, and Stunning for a single combat. This Talent does not prevent the Damage, but allows the character to temporarily ignore its effects for the duration of the combat. Death still affects him normally."
+	},
+
+	{
+		"name": "ORTHOPROXY",
+		"tier": 1,
+		"prerequisite": "None",
+		"aptitude1": "Willpower",
+		"aptitude2": "Tech",
+		"effect": "Either part of the character’s brain has been removed or an inhibitor such as a reason inhibitor circuit has been implanted within the character’s skull, allowing him to ignore the mental strain that would affect a more “complete” person. The character receives a +20 bonus to Willpower Tests made to resist mind control or interrogation. However, he tends not to get jokes."
+	},
+
+	{
+		"name": "PARANOIA",
+		"tier": 2,
+		"prerequisite": "None",
+		"aptitude1": "Perception",
+		"aptitude2": "Fieldcraft",
+		"effect": "The character knows that danger lurks behind every corner and that the galaxy will hit him as soon as he lets his guard down. The character gains a +2 bonus on Initiative rolls and the GM may secretly Test using the character’s Perception to notice hidden threats. The price of this eternal vigilance is a twitchy disposition and the inability to relax."
+	},
+
+	{
+		"name": "PEER",
+		"tier": 1,
+		"prerequisite": "Fellowship 30",
+		"aptitude1": "Fellowship",
+		"aptitude2": "Social",
+		"specialisations": "Adeptus Arbites, Adeptus Astra Telepathica, Adeptus Astartes, Adeptus Mechanicus, Adepta Sororitas, Adeptus Titanicus, Administratum, Astropaths, Ecclesiarchy, Chartist Captains, Imperial Guard, Imperial Navy, Inquisition, Navigators, Officio Assassinorum, Planetary Defence Force, Planetary Governors or Warlords, Rogue Trader, Schola Progenium, Scholastica Psykana",
+		"effect": "The character knows how to deal with a particular social group or organisation. The character gains a +10 bonus to all Fellowship Tests when interacting with this chosen group and at the GM’s discretion may call upon them for favours from time to time. The GM and player may agree to award this Talent when appropriate to the adventure or campaign, though the character must still pay the experience cost for the Talent as normal.  This Talent may be awarded multiple times for the same group, in which case it should be listed as Peer (X), with X equalling the number of times the Talent has been awarded. This can be used to represent groups who particularly like the character and may even be staunch allies. In game terms, the penalty to Fellowship Tests increases to +10 times X."
+	},
+
+	{
+		"name": "POLYGLOT",
+		"tier": 1,
+		"prerequisite": "Intelligence 40, Fellowship 30",
+		"aptitude1": "Intelligence",
+		"aptitude2": "Social",
+		"effect": "The character has an innate ability to derive meaning from unknown languages and can make himself understood using this intuitive grasp. The character can make untrained Skill Tests with the Linguistics Skill even though it is a Specialist Skill.  Being a Polyglot is not the same as having a true knowledge of a language, and characters must make a Linguistics Skill Test (with the –20 for being untrained) to have more than the most basic conversations or exchanges of ideas."
+	},
+
+	{
+		"name": "PRECISE BLOW",
+		"tier": 2,
+		"prerequisite": "Weapon Skill 40, Sure Strike",
+		"aptitude1": "Weapon Skill",
+		"aptitude2": "Finesse",
+		"effect": "The character’s eye, hand, and weapon act seamlessly together, placing his blows where he intends. When making a Called Shot (see page 244) melee attack, the character reduces the penalty by 10 (so a –20 becomes a –10 instead). If combined with Sure Strike, this reduces the penalty to 0."
+	},
+
+	{
+		"name": "PRETERNATURAL SPEED",
+		"tier": 3,
+		"prerequisite": "Weapon Skill 40, Agility 50",
+		"aptitude1": "Agility",
+		"aptitude2": "Offence",
+		"effect": "The character is a swift moving bringer of death; a living, bloody scythe before whom foes die like corn before the reaper. When making a Charge Move, the character doubles his normal charge movement (i.e. a character with an AB of 3 has a charge movement of 9 metres, which is then doubled to 18 metres by the Preternatural Speed Talent)."
+	},
+
+	{
+		"name": "PROSANGUINE",
+		"tier": 2,
+		"prerequisite": "Autosanguine Implants, Mechanicus Implants",
+		"aptitude1": "Toughness",
+		"aptitude2": "Tech",
+		"effect": "Through the character’s iron will, he is able to speed the function of his Autosanguinator. He must spend 10 minutes in mediation and make a Tech-Use Test. If he succeeds, he heals 1d5 points of Damage. If he rolls a 96 or higher, he loses the ability to use his Autosanguinator for one week."
+	},
+
+	{
+		"name": "PSYCHIC POWER",
+		"tier": 1,
+		"prerequisite": "Psyker",
+		"specialisations": "See Chapter VII: Psychic Powers",
+		"aptitude1": "Willpower",
+		"aptitude2": "Psyker",
+		"effect": "Either through training or natural development, the character has learned an additional Psychic Power. This power must be selected from one of the powers presented in Chapter VII: Psychic Powers. The Experience cost and requirements for Psychic Powers are not the same as other Talents, and can instead be found in the individual Psychic Power entries in Chapter VII: Psychic Powers."
+	},
+
+
+	{
+		"name": "QUICK DRAW",
+		"tier": 1,
+		"prerequisite": "None",
+		"aptitude1": "Agility",
+		"aptitude2": "Finesse",
+		"effect": "The character has practised so frequently with his weapons that they practically leap into his hands in response to a simple thought. The character can draw and ready a weapon as a Free Action when the character is armed with a Pistol or Basic class ranged weapon, or a melee weapon that can be wielded in one hand."
+	},
+
+	{
+		"name": "RADIANT PRESENCE",
+		"tier": 1,
+		"prerequisite": "Fellowship 40",
+		"aptitude1": "Fellowship",
+		"aptitude2": "Leadership",
+		"effect": "There is something strong and inspiring about the character, the way he holds himself and the look in his eyes, that puts people at ease, filling them with confidence. Everyone within 20 metres that can see the character feels inspired just by being near them and suffers lessened effects from things that would upset or distress them. Those affected gain a +10 to Willpower Tests to resist Fear or against Intimidation attempts. This ability affects all allies close to the character, though not the character himself."
+	},
+
+	{
+		"name": "RAPID REACTION",
+		"tier": 2,
+		"prerequisite": "Agility 40",
+		"aptitude1": "Agility",
+		"aptitude2": "Fieldcraft",
+		"effect": "The character has honed his reactions to a razor’s edge, allowing him to act while most stand dumbfounded. When surprised or ambushed, a successful Agility Test allows the character to act normally."
+	},
+
+	{
+		"name": "RAPID RELOAD",
+		"tier": 1,
+		"prerequisite": "None",
+		"aptitude1": "Agility",
+		"aptitude2": "Fieldcraft",
+		"effect": "The firing ranges and weapon drill chambers are the character’s constant abode, and hours of reloading countless magazines or power cells means that he can replace them without looking and without thinking. The character halves all reload times, rounding down. Thus, a Half Action reload becomes a Free Action, a Full Action reload becomes a Half Action, and so on."
+	},
+
+	{
+		"name": "RESISTANCE",
+		"tier": 1,
+		"prerequisite": "None",
+		"specialisation": "Cold, Fear, Heat, Poisons, Psychic, Powers, Other",
+		"aptitude1": "Toughness",
+		"aptitude2": "Defence", 
+		"effect": "The character’s background, experience, training, exposure or plain stubbornness has developed a resistance within him.  Each time the character selects this Talent, choose one area of resistance. The character gains a +10 bonus when making Tests to resist effects of this type. The GM may wish to approve certain choices or have them justified by the character’s past."
+	},
+
+	{
+		"name": "SHARPSHOOTER",
+		"tier": 2,
+		"prerequisite": "Ballistic Skill 40, Deadeye Shot",
+		"aptitude1": "Ballistic Skill",
+		"aptitude2": "Finesse",
+		"effect": "The character’s steady hand and eagle eye allow him to place shots or strikes exactly where he wants. When making a Called Shot (see page 244), the character reduces the penalty by 10 (so a –20 becomes a –10 instead). When combined with Deadeye Shot, this reduces the penalty to 0."
+	},
+
+	{
+		"name": "SIDEARM",
+		"tier": 3,
+		"prerequisite": "WS 40, BS 40, Two Weapon Wielder (Ranged and Melee)",
+		"aptitude1": "Weapon Skill",
+		"aptitude2": "Ballistic Skill",
+		"effect": "Many Sergeants among the ranks of the Imperial Guard favour fighting with both blade and pistol. When armed with a pistol in one hand and melee weapon in the other (both of which the character could normally use single-handed), the character reduces the penalty for Two-Weapon Fighting by 10 (so –20 would drop to –10). If taken with the Ambidextrous Talent, this drops the penalty to 0."
+	},
+
+	{
+		"name": "SOUND CONSTITUTION",
+		"tier": 1,
+		"prerequisite": "None",
+		"aptitude1": "Toughness",
+		"aptitude2": "General",
+		"effect": "The character gains an additional Wound. The character may purchase this Talent multiple times up to twice their Toughness Bonus. When a character has gained this Talent multiple times, note the number of times it has been taken after the Talent, such as Sound Constitution (3)."
+	},
+
+	{
+		"name": "SPRINT",
+		"tier": 3,
+		"prerequisite": "None",
+		"aptitude1": "Agility",
+		"aptitude2": "Fieldcraft",
+		"effect": "The character can move at great speeds. When taking a Full Move Action, the character can move an extra number of metres equal to their Agility Bonus. When taking the Run Action, the character may double their movement for one Round. The character gains one level of Fatigue if they use this Talent two Turns in a row."
+	},
+
+	{
+		"name": "STRONG MINDED",
+		"tier": 2,
+		"prerequisite": "Willpower 30, Resistance (Psychic Powers)",
+		"aptitude1": "Willpower",
+		"aptitude2": "Defence",
+		"effect": "The character’s mind acts as a fortress against psychic attacks.  He may re-roll failed Willpower Tests to resist any Psychic Powers that affect his mind. Psychic Powers that have a physical effect, such as Engulf, are unaffected by this Talent."
+	},
+
+	{
+		"name": "STEP ASIDE",
+		"tier": 3,
+		"prerequisite": "Agility 40, Dodge or Parry",
+		"aptitude1": "Agility",
+		"aptitude2": "Defence",
+		"effect": "The character can sway their body out of the path of an attack, causing it to pass through thin air or turn their blade in mid swing to deflect a blow. The character may make an additional Evasion attempt (either a Dodge or a Parry) once per Round. In effect, this gives the character a second Reaction that may only be used for Dodge or Parry attempts, allowing two Dodges, two Parries, or a Dodge and a Parry in each Turn. However, the character may still only attempt a single Dodge or Parry against each individual attack."
+	},
+
+	{
+		"name": "STORM OF IRON",
+		"tier": 2,
+		"prerequisite": "Ballistic Skill 45, Weapon Training (any, range)",
+		"aptitude1": "Ballistic Skill",
+		"aptitude2": "Offence",
+		"effect": "When facing massed enemies on the battlefield, the character lays down a storm of firepower that even the most foolhardy cannot push through. When the character deals Damage to a target with a semi-auto burst or a full-auto burst, the character may allocate his extra hits to any other target within five metres, instead of the usual two metres."
+},
+
+{
+	"name": "STREET FIGHTING",
+	"tier": 1,
+	"prerequisite": "Weapon Skill 30",
+	"aptitude1": "Weapon Skill",
+	"aptitude2": "Offence",
+	"effect": "The character is adept in close and dirty fighting, favouring small weapons or even his bare hands to take down his foes.  When armed with a knife (powered, chain or otherwise), similar small weapon, or simply armed with his bare hands, he adds half his Weapon Skill Bonus to any Critical Damage he inflicts."
+},
+
+{
+	"name": "SURE STRIKE",
+	"tier": 1,
+	"prerequisite": "Weapon Skill 30",
+	"aptitude1": "Weapon Skill",
+	"aptitude2": "Finesse",
+	"effect": "The character’s eyes, hand, and weapon act seamlessly together, placing his blows where he intends. When making a Called Shot (see page 244) melee attack, the character reduces the penalty by 10 (so a –20 becomes a –10 instead)."
+},
+
+{
+	"name": "SWIFT ATTACK",
+	"tier": 2,
+	"prerequisite": "Weapon Skill 30",
+	"aptitude1": "Weapon Skill",
+	"aptitude2": "Finesse",
+	"effect": "The character’s ability with weapons is legendary, allowing him to attack with amazing speed in melee. A Player Character with this Talent may make the Swift Attack Combat Action (see page 248)."
+},
+
+{
+	"name": "TAKEDOWN",
+	"tier": 1,
+	"prerequisite": "None",
+	"aptitude1": "Weapon Skill",
+	"aptitude2": "Offence",
+	"effect": "As a Half Action, or when making a Charge Action, the character may declare that he is attempting a takedown against an opponent in melee combat. He then rolls to hit (using his Weapon Skill) as normal, using any modifiers for weapons and Talents (or the +20 bonus from Charging).  If the character hits and would have done at least 1 point of Damage (after reduction for Armour and Toughness), no Wounds are caused, but the character’s opponent must make a Challenging (+0) Toughness Test or be stunned for 1 Round and knocked prone. In addition, when performing a Stun Action, the character does not suffer a –20 penalty to his Weapon Skill."
+},
+
+{
+	"name": "TARGET SELECTION",
+	"tier": 3,
+	"prerequisite": "Ballistic Skill 50",
+	"aptitude1": "Ballistic Skill",
+	"aptitude2": "Finesse",
+	"effect": "The character’s dread gaze marks out his chosen victim and not even the riotous confusion of close combat interferes.  The character may shoot into melee with no penalty. If he aims beforehand, he can avoid any chance of hitting friendly targets."
+},
+
+{
+	"name": "TECHNICAL KNOCK",
+	"tier": 1,
+	"prerequisite": "Intelligence 30",
+	"aptitude1": "Intelligence",
+	"aptitude2": "Tech",
+	"effect": "Either through the ease of long practice, or the proper ritual to appease a weapon’s machine spirit, the character can clear stoppages with a simple knock or solid smack of his hand to a weapon. The character may un-jam any gun as a Half Action, but may only use this Talent on one weapon per Round. The character must touch the weapon (often quickly and violently) to make this Talent work."
+},
+
+{
+	"name": "THUNDER CHARGE",
+	"tier": 3,
+	"prerequisite": "Strength 50",
+	"aptitude1": "Strength",
+	"aptitude2": "Offence",
+	"effect": "The character charges into combat using his body as an additional weapon to push foes away or to the ground. Driven by his rage and momentum, the impact of such a charge can knock a foe flying or bring them to their knees. When the character makes a Charge Action, he can barrel through foes to get to his target. Make an Opposed Strength Test between the character and each foe in his way (i.e. each foe his charge would take him past or through). Those that fail are knocked to the ground. Once the character has Tested to knock down those in his way, he may complete his Charge and make his attacks against his intended target."
+},
+
+{
+	"name": "TOTAL RECALL",
+	"tier": 1,
+	"prerequisite": "Intelligence 30",
+	"aptitude1": "Intelligence",
+	"aptitude2": "Knowledge",
+	"effect": "Mental conditioning or cranial augmentation enables the character to record and recall great amounts of information, effectively granting them a perfect memory. The character can automatically remember trivial facts or pieces of information the character might feasibly have picked up in the past. When dealing with more detailed, complex, or obscure facts, such as the exact layout of a defence network, the GM may require a successful Intelligence Test to recall the information."
+},
+
+{
+	"name": "TRUE GRIT",
+	"tier": 3,
+	"prerequisite": "Toughness 40",
+	"aptitude1": "Toughness",
+	"aptitude2": "Defence",
+	"effect": "The character is able to shrug off wounds that would fell lesser men. Whenever the character suffers Critical Damage (after reduction for Armour and Toughness), reduce the amount by his Toughness Bonus (to a minimum of 1)."
+},
+
+{
+	"name": "TWO-WEAPON WIELDER",
+	"tier": 2,
+	"prerequisite": "None",
+	"specializations": "Melee, Ranged",
+	"aptitude1": "Weapon Skill or Ballistic Skill",
+	"aptitude2": "Finesse",
+	"effect": "Intensive training allows the character to use a weapon in each hand when needed. When armed with two one-handed weapons (ether melee or ranged weapons), after making a Half Action Attack (this can be a Single Attack, a Swift Attack, or a Lightning Attack with a melee weapon, or a single shot, semi-auto burst, or full auto burst with a ranged weapon), he may make a single additional Half Action Attack following the same restrictions with the other weapon. (In effect, this allows the character to attack twice in a Round; once from each of their weapons). Both of these Attacks count as being part of the same Half Action, and both Tests made to attack with the weapons suffer a –20 penalty.  This Talent may be taken twice, each time with a different focus (melee or ranged). If a character possesses both Talents, then he may fight with one melee and one ranged weapon.  When this Talent is taken with the melee focus it counts as having the Weapon Skill and Finesse Aptitudes, and when it is taken with the ranged focus it counts as having the Ballistic Skill and Finesse Aptitudes.  This Talent may be enhanced by the Blade Dancer, Gunslinger, and Sidearm Talents."
+},
+
+{
+	"name": "UNARMED MASTER",
+	"tier": 2,
+	"prerequisite": "Weapon Skill 45, Agility 40, Unarmed Warrior",
+	"aptitude1": "Strength",
+	"aptitude2": "Offence",
+	"effect": "The character possesses unparalleled mastery of unarmed combat. He counts as having the Deadly Natural Weapon Trait (see page 155)."
+},
+
+{
+	"name": "UNARMORED WARRIOR",
+	"tier": 1,
+	"prerequisite": "Weapon Skill 35, Agility 35",
+	"aptitude1": "Strength",
+	"aptitude2": "Offence",
+	"effect": "After extensive training, the character has gained the Natural Weapon Trait (see page 156), improving all his unarmed attacks from 1d5-3 to 1d10, and meaning he counts as armed even when facing opponents with weapons while bare handed."
+},
+
+{
+	"name": "UNREMARKABLE",
+	"tier": 1,
+	"prerequisite": "None",
+	"aptitude1": "General",
+	"aptitude2": "Social",
+	"effect": "Something about the character’s face just doesn’t stick in people’s memories. The character can more easily blend into crowds or pass themselves off as a nobody. Any attempts to recall the character’s face or spot him in a crowd suffer a –20 penalty. In addition, the character gains a +20 when using the Deceive Skill to either convince someone they have never seen or met him before or if he is trying to appear harmless and ordinary. Naturally, this Talent doesn’t work if the character wears distinctive clothes, armour, or carries unique weaponry."
+},
+
+{
+	"name": "UNSHAKEABLE FAITH",
+	"tier": 2,
+	"prerequisite": "Willpower 35",
+	"aptitude1": "Willpower",
+	"aptitude2": "Defence",
+	"effect": "The Guardsman’s faith in the Emperor and his abilities is so strong that he can face any danger. The character may re-roll any failed Willpower Tests to avoid the effects of Fear."
+},
+
+{
+	"name": "WARP CONDUIT",
+	"tier": 2,
+	"prerequisite": "Psy Rating, Strong Minded, Willpower 50",
+	"aptitude1": "Willpower",
+	"aptitude2": "Psyker",
+	"effect": "The sheer power of the character’s mind allows the character to channel vast amounts of Warp Energy when he chooses. When Pushing (see page 223), the character may spend one Fate Point to add 1d5 to his Psy Rating when determining the final effects of the psychic power he is manifesting. Channelling such vast amounts of power, however, is dangerous and he must add +30 to any resultant Psychic Phenomenon rolls."
+},
+
+{
+	"name": "WARP LOCK",
+	"tier": 3,
+	"prerequisite": "Psy Rating, Strong Minded, Willpower 50",
+	"aptitude1": "Willpower",
+	"aptitude2": "Psyker",
+	"effect": "The character has learned to swiftly cut himself off from the Warp to protect himself from harm. Once per game session, the character may ignore a Psychic Phenomenon result he has rolled (including a result that would indicate rolling on the Perils of the Warp Table) completely negating its effects. Such rapid dislocation from the Warp, through, is stressful and traumatic to the character’s mind and they will suffer 1d5 Energy Damage to the Head location (not reduced by Armour or Toughness) as a result, and may not make any Focus Power Tests or sustain other Psychic Powers until the beginning of his next Turn."
+},
+
+{
+	"name": "WARP SENSE",
+	"tier": 1,
+	"prerequisite": "Psy Rating, Psyniscience, Perception 30",
+	"aptitude1": "Perception",
+	"aptitude2": "Psyker",
+	"effect": "The character’s senses have evolved to perceive the warp in parallel with the physical world. After gaining this Talent, using the Psyniscience Skill requires a Free Action instead of a Half Action. In addition, the character can passively detect psychic effects and entities without the need to actively seek them out.  Whenever the character could detect such a Warp signature or a creature, the GM may allow him to make a Psyniscience Skill Test to detect it, in the same way he might use Awareness to spot an ambush without knowing it is there."
+},
+
+{
+	"name": "WEAPON-TECH",
+	"tier": 1,
+	"prerequisite": "Tech Use +10, Intelligence 40",
+	"aptitude1": "Intelligence",
+	"aptitude2": "Tech",
+	"effect": "The character has developed an extensive understanding of advanced technological weapons and their functions, opening them up and learning what makes them tick, hum, or click. Once per combat, the character can enhance his weapon, increasing its firepower and deadliness. For one Round per combat encounter, a weapon personally wielded by the character from the Melta, Plasma, Power, or Exotic category increases its Damage and Penetration by an amount equal to his Intelligence Bonus."
+},
+
+{
+	"name": "WEAPON TRAINING",
+	"tier": 1,
+	"prerequisite": "None",
+	"specialisations": "Bolt, Chain, Flame, Heavy, Las, Launcher, Melta, Plasma, Power, Low-Tech, Shock, and Solid Projectile",
+	"aptitude1": "General",
+	"aptitude2": "Finesse",
+	"effect": "The character can use all weapons with Class: Pistol, Basic, Melee, Throwing, and Vehicle within the group he has selected with this Talent. When a character attempts to use a weapon he does not have the correct Weapon Training Talent for, he suffers a –20 penalty to any relevant Weapon Skill or Ballistic Skill Test.  The character can only use weapons with Class: Heavy without suffering the –20 penalty if he has both Weapon Training in the appropriate group and Weapon Training (Heavy).  This Talent may be taken more than once, each time with a different specialisation."
+},
+
+{
+	"name": "WHIRLWIND OF DEATH",
+	"tier": 2,
+	"prerequisite": "Weapon Skill 40",
+	"aptitude1": "Weapon Skill",
+	"aptitude2": "Finesse",
+	"effect": "When facing massed opponents in combat, the character becomes a whirlwind of death, moving, hacking, gutting, and beheading with ceaseless fury. When attacking more than one foe in close combat, the character may make one melee attack for each foe he is facing, up to a maximum equal to his Weapon Skill Bonus. Each additional attack beyond the first counts as a Free Action, but cannot be combined with any other Talents or abilities which would grant extra attacks or hits (i.e. Lightning Attack, Furious Charge, etc.). The character may choose in which order he attacks his opponents."
+}
+
+]
