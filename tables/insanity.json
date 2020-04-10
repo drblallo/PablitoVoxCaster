@@ -1,0 +1,46 @@
+[
+	{"min": 1,
+"max": 20,
+
+"text": "The character is badly startled. He may only take a single Half Action during his next Turn, but afterward he may act normally."}, 
+{"min": 21,
+"max": 40,
+
+"text": "Fear grips the character and he begins to shake and tremble. He suffers a –10 penalty on all Tests for the rest of the encounter unless he can recover his wits (see Shock and Snapping Out of It, page 305)."}, 
+{"min": 41,
+"max": 60,
+
+"text": "Reeling with shock, the character backs away from the source of his Fear. The character cannot willingly approach the object of his Fear, but may otherwise act normally, with a –10 penalty on all Tests until the end of the encounter."}, 
+{"min": 61, 
+"max": 80,
+
+"text": "The character is frozen by terror. He may take no Actions until he Snaps Out of It (see Shock and Snapping Out of It, page 305). After snapping out of it, the character makes all Tests with a 10 penalty for the rest of the encounter."}, 
+{"min": 81, 
+"max": 100,
+
+"text": "Panic grips the character. He must flee the source of his fear, if able, as fast as he can, and if prevented from doing so, may only take Half Actions and is at a –20 penalty to all Tests. Once away from the danger, he must successfully Snap Out of It (see Shock and Snapping Out of It, page 305) to regain control."}, 
+{"min": 101, 
+"max": 120,
+
+"text": "Fainting dead away, the character keels over and remains unconscious for 1d5 Rounds. Once he regains consciousness, he is still shaken and takes all Tests with a –10 penalty until the end of the encounter."}, 
+{"min": 121, 
+"max": 130,
+
+"text": "Totally overcome, the character screams and vomits uncontrollably for 1d5 Rounds. During this time he may do nothing, and drops anything he is holding. Afterward, until the end of the encounter, the character may only take a single Half Action each Turn until he has a chance to rest."}, 
+{"min": 131, 
+"max": 140,
+
+"text": "The character laughs hysterically and randomly attacks anything near him in a manic frenzy, firing wildly or attacking with whatever he has at hand. This effect lasts until the character Snaps Out of It (see Shock and Snapping Out of It, page 305), or until he is knocked unconscious."}, 
+{"min": 141, 
+"max": 160,
+
+"text": "The character crumples to the ground for 1d5+1 Rounds and begins sobbing, babbling, and tearing at his own flesh, and may do nothing else. Even after he returns to his senses, he is a complete mess, and suffers a –20 penalty on all Tests until the end of the encounter."}, 
+{"min": 161,
+"max": 170,
+
+"text": "The character’s mind snaps. He becomes catatonic for 1d5 hours and may not be roused."}, 
+{"min": 171, 
+"max": 999,
+"text": "The character is so overcome with terror that his heart immediately stops. He must make a Challenging (+0) Toughness Test or die. If the Test is successful the character still falls catatonic for 1d5 hours as above."
+}
+]

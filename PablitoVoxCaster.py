@@ -9,18 +9,21 @@ from serializers.serializers import *
 from talents.talents import TalentsDb
 from quotes.quotes import get_quotes
 from rules.criticals import load_criticals
+from utils.table import table_from_file, table_from_list
 
 if os.path.exists(".env"):
     load_dotenv()
 TOKEN = os.getenv('DISCORD_TOKEN')
 
-bot = commands.Bot(command_prefix='/')
 talentsDb = TalentsDb("./talents/talents.json")
 criticalDb = load_criticals("./rules/criticals.json")
+insanity_table = table_from_file("./tables/insanity.json")
 
 today_quote = random.choice(get_quotes("./quotes/quotes.txt"))
 
-@bot.command(name="talents", help="dump talents name")
+bot = commands.Bot(command_prefix='/')
+
+@bot.command(name="talents", help="dump talents name", aliases=["tal"])
 async def talents(ctx, name=None):
     if name is None:
         await ctx.send(embed=all_talents_to_embedd(talentsDb))
@@ -65,5 +68,15 @@ async def explosive_critical(ctx, location, level=None):
 async def set_status(ctx):
     activity = discord.Activity(type=discord.ActivityType.watching, name=" heretics die")
     await bot.change_presence(activity=activity)
+
+@bot.command(name="insanity", help="return insanity table value ", aliases=["ins"])
+async def insanity(ctx, value=None):
+    rows = insanity_table.rows()
+    if value is not None:
+        rows = insanity_table.matching(int(value))
+
+    await ctx.send(embed=table_row_to_embed(rows, "insanity result"))
+
+
 
 bot.run(TOKEN)

@@ -23,7 +23,7 @@ def talent_to_embedd(talent):
     if talent.has_specializations:
         embed.add_field(name="specializations: ", value=talent.specializations)
 
-    populate_embed(embed, talent.effect.split("."))
+    populate_embed(embed, talent.effect.split("."), ".")
 
     return embed
 
@@ -47,10 +47,27 @@ def all_talents_to_embedd(talentsDb):
 
     return embed 
 
-def long_text_embbed(text, tit):
+def long_entry_to_embbed(embed, text, entry_name=None, divisor="."):
+    text = text.split(divisor)
+    return populate_embed(embed, text, divisor, entry_name)
+
+def long_text_embbed(text, tit, entry_name=None):
     embed = Embed(title=tit)
-    text = text.split(".")
-    return populate_embed(embed, text, ".")
+    return long_entry_to_embbed(embed, text, entry_name)
 
 def text_to_embbed(text):
     return Embed(title=text)
+
+def table_row_name(row):
+    entry_name = str(row.min)
+    if row.min + 1 != row.max:
+        entry_name += "-" + str(row.max)
+
+    return entry_name
+
+def table_row_to_embed(rows, name, entry_name=None):
+    embed = Embed(title=name)
+    for row in rows:
+        entry_name = table_row_name(row)
+        embed = long_entry_to_embbed(embed, row.text, entry_name)
+    return embed
