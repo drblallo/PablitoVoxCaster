@@ -31,11 +31,14 @@ class TalentsDb:
         for key, talent in self.items():
             if name.upper() in key.upper():
                 yield talent
-        
+            
 
 def load_talents(path):
     with open(path) as f:
         talents = json.load(f) 
         return {x["name"]: Talent(x) for x in talents}
 
-        
+def talent_price(tier,apts):
+    if tier in range(1,4) and apts in range(0,3): 
+        return int(600*(1+(0.5*(tier-1)))/(apts+1))
+    return "Wrong parameters"

@@ -6,6 +6,7 @@ from dotenv import load_dotenv
 from discord.ext import commands
 from serializers.serializers import * 
 from talents.talents import TalentsDb
+from talents.talents import talent_price
 from quotes.quotes import get_thought
 from rules.criticals import *
 from utils.table import table_from_file, table_from_list
@@ -74,6 +75,12 @@ async def insanity(ctx, value=None):
 
     await ctx.send(embed=table_row_to_embed(rows, "insanity result"))
 
+@bot.command(name="experience", help="outputs the cost in experience for talents by specifying tier and number of matching aptitudes", aliases=["exp","xp"])
+async def exp(ctx,tier,apts):
+    if tier is not None and apts is not None:
+        await ctx.send(embed=text_to_embbed(str(talent_price(int(tier),int(apts)))))
+        return
+    return
 
 
 bot.run(TOKEN)
