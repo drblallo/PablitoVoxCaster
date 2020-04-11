@@ -10,8 +10,8 @@ def populate_embed(embed, sentences, seperator = "", name=None):
     divided_sencetes = split_at_value(sentences, MAX_FIELD_LENGHT, len_plus_one)
 
     for i, sentence in enumerate(divided_sencetes):
-        nm = str(i+1) if name is None else name
-        embed.add_field(name=nm+": ", value=seperator.join(sentence))
+        nm = str(i+1)+": "  if name is None else name
+        embed.add_field(name=nm, value=seperator.join(sentence))
     return embed
 
 

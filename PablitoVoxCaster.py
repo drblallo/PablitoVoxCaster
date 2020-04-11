@@ -77,10 +77,11 @@ async def insanity(ctx, value=None):
 
 @bot.command(name="experience", help="outputs the cost in experience for talents by specifying tier and number of matching aptitudes", aliases=["exp","xp"])
 async def exp(ctx,tier,apts):
-    if tier is not None and apts is not None:
-        await ctx.send(embed=long_text_embbed(str(talent_price(int(tier),int(apts))), "Cost for tier " + str(tier) + " talent  with " + str(apts) + " matching aptitudes:", "" ))
+    if tier is None or apts is None:
         return
-    return
+    text = "Cost for tier " + str(tier) + " talent  with " + str(apts) + " matching aptitudes:"
+    embed = long_text_embbed(str(talent_price(int(tier),int(apts))), text, "_")
+    await ctx.send(embed=embed)
 
 
 bot.run(TOKEN)

@@ -12,7 +12,7 @@ def canonical_crit_name(name):
     if len(name) == 1:
         return [short_type_dict[name]]
 
-    return get_close_matches(name, short_type_dict, 1)
+    return get_close_matches(name, crit_types, 1)
 
 def canonical_location_name(name):
     if len(name) == 1:
