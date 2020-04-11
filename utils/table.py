@@ -4,7 +4,7 @@ class TableRow:
     def __init__(self, text, minV, maxV=None):
         self.text = text
         self.min = minV 
-        self.max = minV + 1 if maxV is None else maxV
+        self.max = minV if maxV is None else maxV
 
     def in_range(self, val):
         return self.min <= val <= self.max
