@@ -14,9 +14,6 @@ class Talent:
             self.specializations = jsonDict["specialisations"]
 
 
-    def prettyString(self):
-        return self.name + "\n" + self.effect
-
 class TalentsDb:
     def __init__(self, path):
         self.talents = load_talents(path)
@@ -39,6 +36,10 @@ def load_talents(path):
         return {x["name"]: Talent(x) for x in talents}
 
 def talent_price(tier,apts):
-    if tier in range(1,4) and apts in range(0,3): 
-        return int(600*(1+(0.5*(tier-1)))/(apts+1))
-    return "Wrong parameters"
+    if tier not in range(1,4):
+        raise ValueError("Expected tier in range [1, 3], received {}".format(tier)) 
+        
+    if apts not in range(0,3): 
+        raise ValueError("Expected apts in range [0, 2], received {}".format(apts)) 
+
+    return int(600*(1+(0.5*(tier-1)))/(apts+1))

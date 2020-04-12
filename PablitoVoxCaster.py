@@ -1,87 +1,61 @@
 #!python
 import os
-
+from rulebook import Rulebook
 import discord 
 from dotenv import load_dotenv
 from discord.ext import commands
-from serializers.serializers import * 
-from talents.talents import TalentsDb
-from talents.talents import talent_price
-from quotes.quotes import get_thought
-from rules.criticals import *
-from utils.table import table_from_file, table_from_list
 
 if os.path.exists(".env"):
     load_dotenv()
 TOKEN = os.getenv('DISCORD_TOKEN')
 PREFIX = os.getenv('DISCORD_PREFIX', '#')
 
-talentsDb = TalentsDb("./talents/talents.json")
-criticalDb = load_criticals("./rules/criticals.json")
-insanity_table = table_from_file("./tables/insanity.json")
-
 bot = commands.Bot(command_prefix=PREFIX)
+rulebook = Rulebook()
 
-@bot.command(name="talents", help="returns all talents name if invoked with no arguments, returns all talents matching the provided name otherwise.", aliases=["tal"])
+@bot.command( \
+    help="""returns all talents name if invoked with no arguments, 
+            returns all talents matching 
+            the provided name otherwise.""", \
+    aliases=["tal"])
 async def talents(ctx, name=None):
-    if name is None:
-        await ctx.send(embed=all_talents_to_embedd(talentsDb))
-        return
+    for embed in rulebook.talents(name):
+        await ctx.send(embed=embed)
 
-    for talent in talentsDb.matching_name(name):
-        await ctx.send(embed=talent_to_embedd(talent))
-
-
-@bot.command(name="repo", help="returns the link to the github repository")
+@bot.command(help="returns the link to the github repository")
 async def repo(ctx):
     await ctx.send("https://github.com/drblallo/PablitoVoxCaster")
 
-@bot.command(name="thought", help="thought of the day")
+@bot.command(help="thought of the day")
 async def thought(ctx):
-    await ctx.send(embed=text_to_embbed(get_thought()))
+    await ctx.send(embed=rulebook.get_thought())
 
-def critical(type, location, level):
-    if level is None:
-        return multiple_critical_to_embedd(criticalDb, type, location)
+@bot.command(
+    help="""returns critical of type table at location 
+            if invoked with no level. 
+            Return only the entry at level otherwise.""", \
+    aliases=["crit"])
+async def critical(ctx, type, location, level :int=None):
+    await ctx.send(embed=rulebook.critical(type, location, level))
 
-    return single_critical_to_embed(criticalDb, type, location, int(level) - 1)
-
-
-@bot.command(name="critical", help="returns critical of type table at location if invoked with no level. Return only the entry at level other wise.", aliases=["crit"])
-async def critical_command(ctx, type, location, level=None):
-    t = canonical_crit_name(type)
-    if len(t) == 0:
-        await ctx.send("could not find match for type "+ type)
-        return
-
-    l = canonical_location_name(location)
-    if len(l) == 0:
-        await ctx.send("could not find match for location "+ location)
-        return
-
-    await ctx.send(embed=critical(t[0], l[0], level))
-
-
-@bot.command(name="do", help="set pablito activity")
-async def set_status(ctx):
+@bot.command(help="set pablito activity")
+async def do(ctx):
     activity = discord.Activity(type=discord.ActivityType.watching, name=" heretics burn")
     await bot.change_presence(activity=activity)
 
-@bot.command(name="insanity", help="return insanity table if invoked without parameters, return entry which range contains value otheriwise", aliases=["ins"])
-async def insanity(ctx, value=None):
-    rows = insanity_table.rows()
-    if value is not None:
-        rows = insanity_table.matching(int(value))
+@bot.command(
+    help="""return insanity table if invoked without parameters, 
+        return entry which range contains value otheriwise""", 
+    aliases=["ins"])
+async def insanity(ctx, value:int =None):
+    await ctx.send(embed=rulebook.insanity(value))
 
-    await ctx.send(embed=table_row_to_embed(rows, "insanity result"))
-
-@bot.command(name="experience", help="outputs the cost in experience for talents by specifying tier and number of matching aptitudes", aliases=["exp","xp"])
-async def exp(ctx,tier,apts):
-    if tier is None or apts is None:
-        return
-    text = "Cost for tier " + str(tier) + " talent  with " + str(apts) + " matching aptitudes:"
-    embed = long_text_embbed(str(talent_price(int(tier),int(apts))), text, "_")
-    await ctx.send(embed=embed)
+@bot.command(
+    help="""outputs the cost in experience for talents 
+            by specifying tier and number of matching aptitudes""", 
+    aliases=["exp","xp"])
+async def experience(ctx, tier :int, apts :int):
+    await ctx.send(embed=rulebook.experience(tier, apts))
 
 
 bot.run(TOKEN)

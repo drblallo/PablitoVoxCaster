@@ -34,4 +34,4 @@ def table_from_file(path):
         return Table(rows)
 
 def table_from_list(list, start=1):
-    return Table([TableRow(text, i) for text, i in enumerate(list, start)])
+    return Table([TableRow(text, i) for i, text in enumerate(list, start)])
