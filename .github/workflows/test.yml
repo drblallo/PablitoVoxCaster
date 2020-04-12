@@ -13,4 +13,4 @@ jobs:
       with:
         python-version: 3.6
     - name: Run a one-line script
-      run: pip3 install requirements.txt && pytest ./test
+      run: pip3 install -r requirements.txt && pytest ./test
