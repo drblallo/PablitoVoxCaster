@@ -190,6 +190,15 @@
 
 	{
 		"name": "DEADEYE SHOT",
+		"tier": 1,
+		"prerequisite": "Balistic Skill 30",
+		"aptitude1": "Balistic Skill",
+		"aptitude2": "Finess",
+		"effect": "The character’s rock-steady hand and hawk-like eyesight make him a dreaded marksman. No target, however agile or small, can escape his crosshairs. When making a Called Shot (see page 244) ranged attack, the character reduces the penalty by 10 (so a –20 becomes a –10 instead)."
+	},
+
+	{
+		"name": "DEFLECT SHOT",
 		"tier": 2,
 		"prerequisite": "Agility 50",
 		"aptitude1": "Weapon Skill",
